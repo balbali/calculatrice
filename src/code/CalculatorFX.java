@@ -15,9 +15,9 @@ public class CalculatorFX extends Application {
    */
     @Override
     public void start(Stage stage) throws Exception {
-        // Chemin relatif au package 'code'
-    	//lllllll
-    	//LLLL
+        
+  
+    	
         Parent root = FXMLLoader.load(getClass().getResource("calculator.fxml"));
 
         Scene scene = new Scene(root);
@@ -27,7 +27,12 @@ public class CalculatorFX extends Application {
         stage.setTitle("Calculatrice");
         stage.show();
     }
-
+  /**
+   * Méthode main
+   * @param args
+   * 
+   * @author Adam
+   */
     public static void main(String[] args) {
         launch(args);
     }
